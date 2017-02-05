@@ -1,46 +1,43 @@
 body {
 	background-color: #171717;
-	height: 80%;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+ul, ol {
+	list-style: none;
 }
 
 button {
 	border: none;
 }
 
-a, a:after {
-	text-decoration: none;
-	color: #7d7d7d;
+
+.first-row {
+	margin: 40px auto;
 }
 
-a:hover {
-	color: white;
-	transition: 1s;
-}
-
-/************************************
-HEADING
-*/
 
 .upper-bar {
-	height: 25px;
-	width: auto;
 	background-color: #232323;
-	margin-top: 100px;
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
+	margin-top: 60px;
+	height: 26px;
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
 }
 
 .red,
 .yellow,
 .green {
-	float: left;
 	height: 17px;
 	width: 17px;
-	margin: 5px;
+	margin: 5px 2px 5px 2px;
 	border-radius: 100%;
 }
 
-.red {background-color: #f35a56;}
+.red {background-color: #f35a56; margin-left: 5px;}
 .yellow {background-color: #fdbe41;}
 .green {background-color: #34c749;}
 
@@ -48,8 +45,37 @@ HEADING
 .yellow:active {background-color: #bf8d21;}
 .green:active {background-color: #1e9830;}
 
+.main-title {
+	color: white;
+	font-size: 4rem;
+	font-weight: normal;
+	font-family: 'Arvo', serif;
 
-.main-title:hover {color: #f35a56; transition: 2s;}
+	
+}
+
+.sub-title {
+	color: white;
+	font-family: 'Dosis', sans-serif;
+}
+
+
+.links a {
+	color: white;
+	font-size: 2.1rem;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.links a:hover {
+	color: orange;
+}
+
+
+
+
+/*.main-title:hover {color: #f35a56; transition: 2s;}
 .main-title {
 	font-family: 'Andale Mono', sans-serif;
 	font-size: 4em;
@@ -59,35 +85,34 @@ HEADING
 	padding: 0;
 	color: #fdbe41;
 	transition: 2s;
-}
+}*/
 
-.sub-title {
+/*.sub-title {
 	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 1.85em;
 	margin: 0;
 	color: #cbcbcb;
-}
+}*/
 
 /************************************
 FOOTER
 */
 
-footer a {
+/*footer a {
 	margin: 10px;
 	padding: 4px;
 	font-size: 1.45em;
 	font-family: 'Andale Mono', sans-serif;
 }
 
-.flt-ftr {float: right;}
-.copyright {
+/*.flt-ftr {float: right;}*/
+/*.copyright {
 	padding-top: 190px;
 	font-size: 0.9em;
 	color: #cbcbcb;
 }
+*/
 
-
-/*************** ADD MEDIA QUERIES ***************/
 
 
 
