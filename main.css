@@ -34,7 +34,7 @@ button {
 	height: 17px;
 	width: 17px;
 	margin: 5px 2px 5px 2px;
-	border-radius: 100%;
+	border-radius: 50%;
 }
 
 .red {background-color: #f35a56; margin-left: 5px;}
